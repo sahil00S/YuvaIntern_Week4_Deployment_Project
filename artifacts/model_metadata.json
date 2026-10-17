@@ -1,0 +1,33 @@
+{
+  "project_name": "Wine Classifier Prediction API",
+  "dataset_name": "Wine recognition dataset (scikit-learn bundled dataset)",
+  "best_model": "Logistic Regression",
+  "feature_names": [
+    "alcohol",
+    "malic_acid",
+    "ash",
+    "alcalinity_of_ash",
+    "magnesium",
+    "total_phenols",
+    "flavanoids",
+    "nonflavanoid_phenols",
+    "proanthocyanins",
+    "color_intensity",
+    "hue",
+    "od280/od315_of_diluted_wines",
+    "proline"
+  ],
+  "class_names": [
+    "class_0",
+    "class_1",
+    "class_2"
+  ],
+  "target_description": "Wine cultivar class identifier; class labels are dataset categories, not quality grades.",
+  "test_size": 0.2,
+  "random_state": 42,
+  "training_rows": 142,
+  "test_rows": 36,
+  "n_features": 13,
+  "n_classes": 3,
+  "model_file": "artifacts/wine_classifier.joblib"
+}

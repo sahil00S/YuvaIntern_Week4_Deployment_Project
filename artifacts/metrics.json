@@ -1,0 +1,23 @@
+{
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "cv_accuracy_mean": 0.9790640394088669,
+      "cv_accuracy_std": 0.027713464392187602,
+      "test_accuracy": 0.9722222222222222,
+      "test_precision_macro": 0.9777777777777779,
+      "test_recall_macro": 0.9666666666666667,
+      "test_f1_macro": 0.9709618874773139
+    },
+    {
+      "model": "Random Forest",
+      "cv_accuracy_mean": 0.9790640394088669,
+      "cv_accuracy_std": 0.027713464392187602,
+      "test_accuracy": 1.0,
+      "test_precision_macro": 1.0,
+      "test_recall_macro": 1.0,
+      "test_f1_macro": 1.0
+    }
+  ],
+  "selected_model": "Logistic Regression"
+}

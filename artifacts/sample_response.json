@@ -1,0 +1,10 @@
+{
+  "predicted_class": 0,
+  "class_label": "class_0",
+  "probabilities": {
+    "class_0": 0.9996708023921941,
+    "class_1": 0.00030661868562270394,
+    "class_2": 2.2578922183152527e-05
+  },
+  "model_name": "Logistic Regression"
+}
